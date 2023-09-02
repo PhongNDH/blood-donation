@@ -1,0 +1,137 @@
+.profile-container {
+  margin: 100px auto 0;
+  border-radius: 12px;
+  padding: 40px;
+  max-width: 70%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  .profile-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 12px;
+    padding: 0 20px;
+    .profile-heading--name {
+      display: flex;
+      align-items: center;
+      span {
+        margin-left: 24px;
+        font-size: 24px;
+        font-family: "Shantell Sans";
+        font-weight: bold;
+      }
+    }
+    .profile-return-home {
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+  }
+  .profile-info {
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .profile-detail {
+      display: flex;
+      margin-left: 100px;
+      align-items: center;
+      margin-bottom: 8px;
+      h4 {
+        font-family: "Kavoon";
+        font-size: 16px;
+        margin-bottom: 0;
+        width: 120px;
+      }
+      span {
+        margin-left: 40px;
+        border: 1px solid rgba(0, 0, 0, 0.3);
+        border-radius: 4px;
+        padding: 4px;
+        min-width: 360px;
+        padding-left: 8px;
+      }
+      p {
+        margin-left: 40px;
+        margin-bottom: 0;
+        margin-bottom: 2px;
+      }
+      .profile-point {
+        padding-left: 8px;
+        font-weight: 400;
+      }
+    }
+
+    .profile_gift {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin-top: 20px;
+      table {
+        margin-top: 8px;
+        padding: 8px;
+        border-collapse: collapse;
+        th {
+          text-align: left;
+          border: 2px solid white;
+          padding: 4px 70px 4px 8px;
+          background-color: wheat;
+          font-family: "Fugaz One";
+        }
+        td {
+          border: 1.5px solid white;
+          padding: 4px 70px 4px 8px;
+          background-color: wheat;
+          font-family: "Niramit";
+          font-weight: 600;
+          font-style: italic;
+        }
+      }
+    }
+
+    .profile-statistic {
+      width: 90%;
+      display: flex;
+      justify-content: space-around;
+      margin: 0px auto 30px;
+      .profile-statistic-component {
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        border-radius: 4px;
+        padding: 12px;
+        min-width: 40%;
+      }
+      h4 {
+        font-size: 16px;
+        font-family: "Kavoon";
+      }
+      .profile_statistic-element {
+        display: flex;
+        margin-left: 24px;
+        flex-direction: column;
+        h6 {
+          margin-bottom: 0;
+          margin-right: 24px;
+          width: 50px;
+          font-family: "Lilita One";
+        }
+        span {
+          font-family: "Lilita One";
+        }
+        .profile-statistic-select {
+          display: flex;
+          align-items: center;
+        }
+        .profile-statistic-total {
+          display: flex;
+          align-items: center;
+          margin-top: 8px;
+        }
+        .css-b62m3t-container {
+          width: 60%;
+        }
+      }
+    }
+  }
+}

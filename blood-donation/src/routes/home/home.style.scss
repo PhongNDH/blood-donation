@@ -1,0 +1,94 @@
+.home-container {
+  display: grid;
+  grid-template-columns: 7% auto;
+  gap: 10px;
+  position: absolute;
+  top: 86px;
+  right: 0;
+  left: 0;
+  //padding-top: 86px;
+  .home-vertical-menu {
+    margin-left: 10px;
+    //position: fixed;
+    left: 0;
+    .home-menu-content {
+      border-radius: 4px;
+      background-color: rgb(250, 250, 250);
+      max-height: 80vh;
+      height: fit-content;
+      box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+      padding-bottom: 8px;
+      position: fixed;
+      left: 4px;
+      width: 7%;
+      //overflow: scroll;
+
+      h3 {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 16px;
+        img {
+          margin-top: 10px;
+          border-radius: 10px;
+        }
+      }
+      .aside__list {
+        list-style-type: none;
+        padding-left: 0;
+        margin: 0;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+
+      .aside__item {
+        display: flex;
+        justify-content: center;
+        margin-top: 8px;
+        a {
+          aspect-ratio: 1/1;
+          text-decoration: none;
+          font-family: "Righteous";
+          color: var(--white-color);
+          font-size: 1.1rem;
+          width: 80%;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          border: 1px solid rgba(0, 0, 0, 0.2);
+          border-radius: 5px;
+          box-sizing: border-box;
+          transition: right linear 0.2s;
+          padding-top: 4px;
+          &:hover {
+            background-color: rgba(0, 0, 0, 0.2);
+            cursor: pointer;
+          }
+          .aside__item--img {
+            width: 30%;
+          }
+          .aside__item--span {
+            font-size: 12px;
+            margin-top: 4px;
+          }
+        }
+      }
+
+      .aside--active a {
+        background-color: rgba(0, 0, 0, 0.2);
+      }
+    }
+  }
+  .home-outlet {
+    margin-left: 10px;
+    margin-right: 10px;
+    min-height: 100vh;
+  }
+  .home-footer {
+    grid-column: 1 / span 2;
+    grid-row: 2/2;
+    //margin-top: 80px;
+  }
+}

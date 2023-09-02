@@ -1,0 +1,52 @@
+.donate-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  h3 {
+    font-family: "Rubik Bubbles";
+    text-align: center;
+    word-spacing: 6px;
+  }
+
+  .donate-form {
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: fit-content;
+    min-width: 460px;
+    padding: 32px;
+    border: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    .css-b62m3t-container {
+      min-width: 160px;
+    }
+    .donate-disease-name {
+      .css-b62m3t-container {
+        min-width: 210px;
+      }
+    }
+    .donate-group {
+      display: flex;
+      margin-bottom: 32px;
+      input[type="text"] {
+        padding: 4px 10px;
+        min-width: 210px;
+      }
+
+      .donate-label {
+        justify-items: flex-end;
+        padding: 4px;
+        font-weight: bold;
+        margin-right: 32px;
+        display: flex;
+        align-items: center;
+        width: 150px;
+        font-family: "Righteous";
+        color: white;
+        letter-spacing: 1px;
+      }
+    }
+  }
+}

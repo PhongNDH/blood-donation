@@ -1,0 +1,23 @@
+.logo-container {
+  display: flex;
+  justify-content: center;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.Tilt {
+  background: linear-gradient(89deg, #f79191 0%, #f6bb9d 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px!important;
+  .Tilt-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  img {
+    margin-top: 2px;
+  }
+}

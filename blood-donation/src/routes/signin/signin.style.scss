@@ -1,0 +1,60 @@
+.signin-container {
+  background-color: white;
+  max-width: 700px;
+  padding: 20px 100px 20px;
+  margin: 120px auto 0;
+  border-radius: 5px;
+  box-shadow: 3px 3px 5px 2px rgb(0, 0, 0, 0.2);
+
+  .signin-header {
+    margin-top:16px;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 auto;
+    font-family: 'Rubik Bubbles';
+  }
+
+  .signin-form {
+    display: flex;
+    flex-direction: column;
+    .signin-textfield {
+      display: flex;
+      flex-direction: column;
+      margin: 4px 0;
+      .signin-input {
+        margin-top: 24px;
+        .css-1x51dt5-MuiInputBase-input-MuiInput-input {
+          margin-bottom: 4px;
+        }
+      }
+    }
+  }
+
+  .register-signin {
+    margin: 16px auto 0;
+    display: flex;
+    justify-content: center;
+    span {
+      font-size: 16px;
+      font-weight: 500;
+      margin: 0;
+    }
+    a {
+      text-decoration: underline;
+      font-size: 16px;
+      font-weight: 500;
+      color: rgba(0, 0, 0, 1);
+      &:hover {
+        cursor: pointer;
+        color: rgba(0, 0, 0, 0.5);
+      }
+    }
+  }
+
+  .buttons-container {
+    display: flex;
+    justify-content: center;
+    min-width: 200px !important;
+    margin: 40px auto 0;
+  }
+}

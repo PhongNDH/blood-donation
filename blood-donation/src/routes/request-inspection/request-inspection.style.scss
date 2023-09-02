@@ -1,0 +1,107 @@
+.request-inspection-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  h2 {
+    font-family: "Rubik Bubbles";
+    text-align: center;
+    margin-bottom: 24px;
+    word-spacing: 8px;
+  }
+  .request-inspection-details-selector {
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-evenly;
+    .request-inspection-details-selector-constituent {
+      display: flex;
+      align-self: center;
+      .css-b62m3t-container {
+        min-width: 165px;
+      }
+      span {
+        margin-right: 12px;
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: "Righteous";
+      }
+    }
+    .request-details-selector-support {
+      .css-b62m3t-container {
+        min-width: 200px;
+      }
+    }
+  }
+  .request-inspection-details-table {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    overflow: scroll;
+    max-height: 62vh;
+    margin: 0 auto;
+    table {
+      border: 2px solid rgba(0, 0, 0, 0.3);
+      width: 100%;
+      height: fit-content;
+      background-color: white;
+
+      th {
+        border-bottom: 1px solid black;
+        text-align: justify;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 8px;
+      }
+
+      td {
+        text-align: justify;
+        padding-top: 8px;
+        padding-left: 8px;
+        padding-bottom: 8px;
+        font-weight: 600;
+        font-size: 15px;
+        button {
+          margin-right: 8px;
+        }
+      }
+
+      .request-inspection-details-heading,
+      .request-inspection-detail-total {
+        font-family: "Lilita One";
+        letter-spacing: 0.75px;
+      }
+
+      .request-inspection-table-odd {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      .request-inspection-reason {
+        color: orangered;
+      }
+
+      .request-inspection-id {
+        color: purple;
+        font-weight: bold;
+      }
+      .request-inspection-status {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .request-inspection-location{
+        .css-b62m3t-container {
+          min-width: 180px;
+          position: relative;
+          text-align: left;
+        }
+      }
+      .request-inspection-blood-type-suggestion{
+        .css-b62m3t-container {
+          min-width: 60px;
+          position: relative;
+          text-align: left;
+        }
+      }
+    }
+  }
+}

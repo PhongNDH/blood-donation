@@ -1,0 +1,97 @@
+.donation-histories-details-container {
+  display: flex;
+  flex-direction: column;
+  
+  h2 {
+    font-family: "Rubik Bubbles";
+    text-align: center;
+    margin-bottom: 24px;
+    word-spacing: 8px;
+  }
+  .donation-histories-details-selector {
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-evenly;
+    .donation-histories-details-selector-constituent {
+      display: flex;
+      align-self: center;
+      .css-b62m3t-container {
+        min-width: 160px;
+      }
+      span {
+        margin-right: 12px;
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: "Righteous";
+      }
+    }
+
+    .donation-histories-selector-support{
+      .css-b62m3t-container {
+        min-width: 200px;
+      }
+    }
+  }
+  .donation-histories-details-table {
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    overflow: scroll;
+    margin:0 auto;
+    table {
+      border: 2px solid rgba(0, 0, 0, 0.3);
+      width: 100%;
+      height: fit-content;
+      background-color: white;
+      th {
+        border-bottom: 1px solid black;
+        text-align: justify;
+        padding-top: 8px;
+        padding-left: 8px;
+        padding-bottom: 8px;
+        position :sticky;
+        top:0;
+        background-color: white;
+      }
+
+      td {
+        text-align: justify;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 8px;
+        font-weight: 600;
+        button {
+          margin-right: 8px;
+        }
+      }
+      .donation-histories-details-heading,.donation-histories-detail-total {
+        font-family: "Lilita One";
+        letter-spacing: 0.75px;
+      }
+
+      .donation-histories-table-odd {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      .donation-histories-reason {
+        color: orangered;
+      }
+
+      .donation-histories-id {
+        color: brown;
+        font-weight: bold;
+      }
+      .donation-histories-status {
+        display: flex;
+        justify-content: center;
+      }
+      .donation-histories-disease{
+        color: orangered;
+      }
+      .donation-histories-disease-none{
+        color: rgba(0,0,0,0.5);
+      }
+    }
+  }
+}

@@ -1,0 +1,96 @@
+.request-histories-details-container {
+  display: flex;
+  flex-direction: column;
+  h2 {
+    font-family: "Rubik Bubbles";
+    text-align: center;
+    margin-bottom: 24px;
+    word-spacing: 8px;
+  }
+  .request-histories-details-selector {
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-evenly;
+    .request-histories-details-selector-constituent {
+      display: flex;
+      align-self: center;
+      .css-b62m3t-container {
+        min-width: 160px;
+      }
+      span {
+        margin-right: 12px;
+        display: flex;
+        align-items: center;
+        font-size: 18px;
+        font-weight: 600;
+        font-family: "Righteous";
+      }
+    }
+    .request-histories-selector-support {
+      .css-b62m3t-container {
+        min-width: 200px;
+      }
+    }
+  }
+  .request-histories-details-table {
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    overflow: scroll;
+    margin: 0 auto;
+    table {
+      border: 2px solid rgba(0, 0, 0, 0.3);
+      width: 100%;
+      height: fit-content;
+      background-color: white;
+      th {
+        border-bottom: 1px solid black;
+        text-align: justify;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 8px;
+        position: sticky;
+        top:0;
+        background-color: white;
+      }
+
+      td {
+        text-align: justify;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 8px;
+        font-weight: 600;
+        button {
+          margin-right: 8px;
+        }
+      }
+      .request-histories-details-heading,
+      .request-histories-detail-total {
+        font-family: "Lilita One";
+        letter-spacing: 0.75px;
+      }
+
+      .request-histories-table-odd {
+        background-color: rgba(0, 0, 0, 0.1);
+      }
+      .request-histories-disease {
+        color: orangered;
+      }
+
+      .request-histories-id {
+        color: rgba(0, 149, 191, 0.999);
+        font-weight: bold;
+      }
+      .request-histories-status {
+        display: flex;
+        justify-content: center;
+      }
+      .request-histories-reason {
+        color: orangered;
+      }
+      .request-histories-reason-none {
+        color: rgba(0, 0, 0, 0.5);
+      }
+    }
+  }
+}

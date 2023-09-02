@@ -1,0 +1,23 @@
+.exploration-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  width: 30%;
+  &:hover{
+    color: green;
+    cursor: default;
+  }
+  h3 {
+    padding:12px;
+    font-size: 24px;
+    font-family: "Vollkorn";
+    margin-top:8px;
+    height: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  span{
+    padding:12px 12px 24px;
+    text-align:justify;
+  }
+}
